@@ -1,0 +1,702 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/iv_logo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ui.home.HomeFragment"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="368dp"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <View
+                    android:id="@+id/view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="163dp"
+                    android:background="@drawable/bg_view"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.0" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="SELAMAT DATANG"
+                    android:textColor="@color/white"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.067"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.05" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Website"
+                    android:textColor="@color/darkblue"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.813"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/view"
+                    app:layout_constraintVertical_bias="0.928" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="SMKN1TANJUNGPANDAN "
+                    android:textColor="@color/white"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.096"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.129" />
+
+                <TextView
+                    android:id="@+id/testasu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="marquee"
+                    android:fadingEdge="horizontal"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:scrollHorizontally="true"
+                    android:singleLine="true"
+                    android:text="Selamat Datang Di Aplikasi Smk Negri 1 Tanjung Pandan | Sehat Selalu Panjang Umur,Sukses Selalu, Banyak Duit, HAHAHA"
+                    android:textColor="@color/white"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.272" />
+
+                <ImageView
+                    android:id="@+id/logo"
+                    android:layout_width="67dp"
+                    android:layout_height="64dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/iconrm"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.921"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/view"
+                    app:layout_constraintVertical_bias="0.069" />
+
+                <!--                menu bar-->
+                <!--home-->
+
+                <!--                prestasi-->
+
+                <!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginStart="170dp"-->
+<!--                    android:layout_marginTop="220dp"-->
+<!--                    android:text="Prestasi"-->
+<!--                    android:textColor="@color/darkblue" />-->
+                <!--                fasilitas-->
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView3"
+                    android:layout_width="81dp"
+                    android:layout_height="73dp"
+                    android:layout_marginBottom="100dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="20dp"
+                    app:contentPadding="7dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.157"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.697">
+
+                    <ImageButton
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/ic_menu_home"
+                        android:onClick="home" />
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView"
+                    android:layout_width="81dp"
+                    android:layout_height="73dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="20dp"
+                    app:contentPadding="7dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.461">
+
+                    <ImageButton
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/ic_launcher_prestasi_foreground"
+                        android:onClick="prestasi" />
+                </androidx.cardview.widget.CardView>
+
+                jurusan
+
+                <!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginStart="65dp"-->
+<!--                    android:layout_marginTop="330dp"-->
+<!--                    android:text="Jurusan"-->
+<!--                    android:textColor="@color/darkblue" />-->
+                <!--                struktur-->
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Prestasi"
+                    android:textColor="@color/darkblue"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.498"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/view"
+                    app:layout_constraintVertical_bias="0.613" />
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView2"
+                    android:layout_width="81dp"
+                    android:layout_height="73dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="20dp"
+                    app:contentPadding="7dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.848"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.461">
+
+                    <ImageButton
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/ic_launcher_fasilitas"
+                        android:onClick="fasilitas" />
+                </androidx.cardview.widget.CardView>
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Fasilitas"
+                    android:textColor="@color/darkblue"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.814"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/view"
+                    app:layout_constraintVertical_bias="0.613" />
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="81dp"
+                    android:layout_height="73dp"
+                    android:layout_marginStart="50dp"
+
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="20dp"
+                    app:contentPadding="7dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.007"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.823">
+
+                    <ImageButton
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/ic_launcher_jurusan_foreground"
+                        android:onClick="jurusan" />
+                </androidx.cardview.widget.CardView>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Jurusan"
+                    android:textColor="@color/darkblue"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.182"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/view"
+                    app:layout_constraintVertical_bias="0.925" />
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="81dp"
+                    android:layout_height="73dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="20dp"
+                    app:contentPadding="7dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.82">
+
+                    <ImageButton
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/ic_launcher_hub_foreground"
+                        android:onClick="struktur" />
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Struktur"
+                    android:textColor="@color/darkblue"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.498"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/view"
+                    app:layout_constraintVertical_bias="0.925" />
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="81dp"
+                    android:layout_height="73dp"
+
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="20dp"
+                    app:contentPadding="7dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.848"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.82">
+
+                    <ImageButton
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/ic_menu_web"
+                        android:onClick="web" />
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Beranda"
+                    android:textColor="@color/darkblue"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.183"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/view"
+                    app:layout_constraintVertical_bias="0.613" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Website"
+                    android:textColor="@color/darkblue"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.813"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/view"
+                    app:layout_constraintVertical_bias="0.928" />
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="306dp"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:layout_marginStart="13dp"
+                    android:layout_marginTop="10dp"
+                    android:onClick="expandvisimisi"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="10dp"
+                    app:contentPadding="10dp">
+
+                    <LinearLayout
+                        android:id="@+id/layoutvisimisi"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:animateLayoutChanges="true"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="19dp"
+                            android:text="SAMBUTAN KEPALA SEKOLAH"
+                            android:textColor="@color/teal_700"
+                            android:textSize="12dp"
+                            android:textStyle="bold" />
+
+
+                        <TextView
+                            android:id="@+id/textvisimisi"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity=""
+                            android:layout_marginStart="8dp"
+                            android:layout_marginBottom="30dp"
+                            android:text="sekarang ini informasi merupa- kan  elemen yang sangat penting sekali dan sangat di butuhkan untuk kita dalam menambah wawasan dan pengetahuan, bukan hanya untuk para anak-anak yang sekolah saja ataupun para mahasiswa yang membutuhkan informasi."
+                            android:textColor="@color/darkblue"
+                            android:visibility="gone" />
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" />
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="123dp"
+                    android:layout_height="163dp"
+                    android:layout_marginStart="260dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="20dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="10dp"
+                    app:contentPadding="5dp">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="133dp"
+                            android:src="@drawable/kpsek" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="Erlina, S.p"
+                            android:textColor="@color/darkblue" />
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="30dp"
+                android:text="Geser Ke Bawah Untuk Lanjut Membaca"
+                android:textColor="@color/grey"
+                android:textSize="15dp"
+                 />
+
+            <!--visi misi-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="30dp"
+                android:text="VISI DAN MISI"
+                android:textColor="@color/teal_700"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+                />
+
+            <!--visi-->
+            <TextView
+                android:layout_width="9dp"
+                android:layout_height="15dp"
+                android:layout_marginStart="10dp"
+                android:text="VISI"
+                android:textColor="@color/darkblue"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="373dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity=""
+                android:layout_marginStart="15dp"
+                android:layout_marginBottom="30dp"
+                android:text="Terwujudnya sekolah unggul berbasis industry yang inovatif
+berjiwa wirausaha, berdaya saing, berwawasan internasional dan
+berwawasan lingkungan berdasarkan ilmu pengetahuan
+dan teknologi serta beriman dan bertaqwa kepada Tuhan
+Yang Maha Esa" android:textColor="@color/darkblue" />
+
+            <!--misi-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="MISI"
+                android:textColor="@color/darkblue"
+                android:textStyle="bold" />
+            <!--txt1-->
+            <TextView
+                android:layout_width="373dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity=""
+                android:layout_marginStart="15dp"
+                android:layout_marginBottom="3dp"
+                android:text="1.Meningkatkan kualitas pembelajaran SMK Pusat Keunggulan
+untuk menghasilkan lulusan yang berdaya saing dalam
+kebekerjaan danberbudaya kerja sesuai dengan
+perkembangan ilmu pengetahuan dan teknologi."
+                android:textColor="@color/darkblue" />
+            <TextView
+                android:layout_width="373dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity=""
+                android:layout_marginStart="15dp"
+                android:layout_marginBottom="0dp"
+                android:text="2.Membentuk kepribadian siswa yang beriman dan
+berakhlak mulia, berkebhinekaan global, gotong royong, mandiri,
+bernalar kritis dan kreatif."
+                android:textColor="@color/darkblue" />
+            <TextView
+                android:layout_width="373dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity=""
+                android:layout_marginStart="15dp"
+                android:layout_marginBottom="0dp"
+                android:text="3.Membangun kemitraan melalui penyelarasan kurikulum,
+praktik kerja dan keterserapan lulusan dengan dunia kerja."
+                android:textColor="@color/darkblue" />
+            <TextView
+                android:layout_width="373dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity=""
+                android:layout_marginStart="15dp"
+                android:layout_marginBottom="0dp"
+                android:text="4.Menghasilkan lulusan yang mampu berwirausaha secara
+profesional sesuai dengan kebutuhan masyarakat."
+                android:textColor="@color/darkblue" />
+            <TextView
+                android:layout_width="373dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity=""
+                android:layout_marginStart="15dp"
+                android:layout_marginBottom="0dp"
+                android:text="5.Menghasilkan lulusan yang mampu bekerja sesuai dengan
+kebutuhan dunia kerja serta pembangunan nasional pada
+umumnya.
+"
+                android:textColor="@color/darkblue" />
+            <TextView
+                android:layout_width="373dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity=""
+                android:layout_marginStart="15dp"
+                android:layout_marginBottom="0dp"
+                android:text="6.Menyiapkan lulusan yang mampu bekerja sesuai dengan
+kebutuhan dunia kerja internasional."
+                android:textColor="@color/darkblue" />
+            <TextView
+                android:layout_width="373dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity=""
+                android:layout_marginStart="15dp"
+                android:layout_marginBottom="20dp"
+                android:text="7.Menciptakan lingkungan sekolah yang kondusif, asri, bersih,
+sehat serta ramah lingkungan."
+                android:textColor="@color/darkblue" />
+            <!--tujuan-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="TUJUAN"
+                android:textColor="@color/darkblue"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="373dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity=""
+                android:layout_marginStart="15dp"
+                android:layout_marginBottom="0dp"
+                android:text="1.Menghasilkan lulusan yangberkualitas, berdaya saing dalam
+kebekerjaan danberbudaya kerja sesuai dengan perkembangan
+ilmu pengetahuan dan teknologi."
+                android:textColor="@color/darkblue" />
+
+            <TextView
+                android:layout_width="373dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity=""
+                android:layout_marginStart="15dp"
+                android:layout_marginBottom="30dp"
+                android:text="2.Meningkatkan kepribadian siswa yang beriman dan
+berakhlak mulia, berkebhinekaan global, gotong royong,
+mandiri, bernalar kritis dan kreatif2."
+                android:textColor="@color/darkblue" />
+
+            <!--sejarah-->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text=" SEJARAH "
+                android:textColor="@color/teal_200"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity=""
+                    android:layout_marginStart="15dp"
+                    android:text="P"
+                    android:textColor="@color/darkblue"
+                    android:textSize="50dp"
+                    android:textStyle="" />
+
+                <TextView
+                    android:layout_width="373dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="30dp"
+                    android:text="rovinsi kepulauan Bangka Belitung merupakan? provinsi termuda dengan pertumbuhan penduduk saat ini cukup pesat, yang diakibatkan oleh migrasi dari,"
+                    android:textColor="@color/darkblue" />
+
+                <TextView
+                    android:layout_width="373dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="59dp"
+                    android:layout_marginBottom="15dp"
+                    android:text="wilayah lain dan perkembangan penduduk lokal. Hal ini tentunya harus diimbangi dengan perkembangan inprastruktur bidang Bisnis Manajemen dan Teknologi untuk melayani kebutuhan masyarakat. Keterbatasan sumberdaya manusia bidang Bisnis Manajemen dan Tenologi khususnya pada level menengah (Asisten) sangat berpengaruh terhadap pelayanan masyarakat."
+                    android:textColor="@color/darkblue" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="373dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity=""
+                android:layout_marginStart="15dp"
+                android:layout_marginBottom="10dp"
+                android:text="Sekolah Menengah Kejuruan (SMK) Negeri 1 Tanjungpandan yang mulai berdiri pada tahun 1984, berdasarkan surat pendirian sekolah No. 0888/0/1986 tahun 1986, merupakan? SMK bidang keahlian bisnis manajemen adalah lembaga formal untuk mendidik dan melatih sumberdaya manusia bidang bisnis manajemen yang ada di Provinsi Kep. Bangka Belitung."
+                android:textColor="@color/darkblue" />
+
+            <TextView
+                android:layout_width="373dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity=""
+                android:layout_marginStart="15dp"
+                android:layout_marginBottom="30dp"
+                android:text="Berdasarkan data Penerimaan Peserta Didik Baru (PPDB) tahun pelajaran 2019-2020 animo lulusan SLTP yang mendaftar di SMK Negeri 1 Tanjungpandan cukup besar yaitu dari jumlah pendaftar sebanyak 508 orang yang dapat diterima hanya 315 siswa, hal ini disebabkan daya tampung yang dimiliki sekolah. Berdasarkan hal diatas untuk pengembangan SMK Negeri 1 Tanjungpandan empat tahun kedepan sangat diperlukan perencanaan pengembangan SMK ini disusun ? dalam bentuk School Development Plan (SDP), agar kegiatan pengembangan SMK menjadi lebih terarah, sesuai dengan target yang ditetapkan / kondisi yang diharapkan."
+                android:textColor="@color/darkblue" />
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <View
+                    android:layout_width="223dp"
+                    android:layout_height="28dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/bg_berita"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:paddingTop="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="3dp"
+                    android:layout_marginBottom="-5dp"
+                    android:text="Berita Terbaru"
+                    android:textColor="@color/white"
+                    android:textSize="22dp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+<!--            webview&ndash;&gt;-->
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <WebView
+                    android:id="@+id/webhome"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="30dp"
+                android:text="© 2024 smkn1tanjungpandan.sch.id - All Rights Reserved."
+
+                android:textSize="10dp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

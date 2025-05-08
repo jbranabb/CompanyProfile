@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_home"
+            android:title="Beranda" />
+        <item
+            android:id="@+id/nav_prestasi"
+            android:icon="@drawable/ic_launcher_prestasi_foreground"
+            android:title="Prestasi" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_launcher_fasilitas"
+            android:title="Fasilitas" />
+        <item
+            android:id="@+id/nav_jurusan"
+            android:icon="@drawable/ic_launcher_jurusan_foreground"
+            android:title="Jurusan"/>
+        <item
+            android:id="@+id/nav_struktur"
+            android:icon="@drawable/ic_launcher_hub_foreground"
+            android:title="Struktur Organisasi"/>
+        <item
+            android:id="@+id/nav_web"
+            android:icon="@drawable/ic_menu_web"
+            android:title="Website" />
+    </group>
+
+
+    <item android:title="Bagikan Dan Hubungi Kami" >
+        <menu>
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_launcher_email_foreground"
+                android:title="Hubungi Kami"/>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+        </menu>
+
+    </item>
+
+</menu>

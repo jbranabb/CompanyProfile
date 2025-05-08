@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".JurusanActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+                    <!--rpl-->
+
+        <androidx.cardview.widget.CardView
+            android:onClick="expand"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="1dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="10dp"
+            app:contentPadding="20dp">
+
+            <LinearLayout
+                android:id="@+id/layoutrpl"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:animateLayoutChanges="true"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="68dp"
+                        android:layout_height="55dp"
+                        android:src="@drawable/rpl" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="70dp"
+                        android:text="Jumlah Rombel: 3 "
+                        android:textColor="@color/black"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="70dp"
+                        android:layout_marginTop="14dp"
+                        android:textColor="@color/black"
+                        android:text="Jumlah Siswa: 105" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="70dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginBottom="10dp"
+                        android:textColor="@color/black"
+                        android:text="Ketua Jurusan: Johar Mahardi,S.Pd" />
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/textrpl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Apa Itu Jurusan Pengembangan Perangkat Lunak dan Gim (PPLG)?
+PPLG adalah singkatan dari Pengembangan Perangkat Lunak dan Gim dan merupakan sebuah jurusan yang ada di Sekolah Menengah Kejuruan (SMK). PPLG adalah sebuah jurusan yang mempelajari dan mendalami semua cara-cara pengembangan perangkat lunak termasuk pembuatan, pemeliharaan, manajemen organisasi pengembangan perangkat lunak dan manajemen kualitas.
+
+Bukan hanya itu, PPLG juga berkaitan dengan software komputer mulai dari pembuatan website, aplikasi, game dan semua yang berkaitan dengan pemrograman dengan menguasai bahasa pemrograman tersebut. Intinya RPL tidak akan jauh-jauh dari tiga hal yaitu Coding, Desain dan Algoritma yang akan menjadi kunci keberhasilan rekayasa perangkat lunak tersebut."
+                    android:textSize="15dp"
+                    android:visibility="gone" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PENGEMBANGAN PERANGKAT LUNAK DAN GIM"
+                    android:textColor="@color/teal_700"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+                    <!--tkj-->
+
+        <androidx.cardview.widget.CardView
+            android:onClick="expand1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="1dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="10dp"
+            app:contentPadding="20dp">
+
+            <LinearLayout
+                android:id="@+id/layouttkj"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:animateLayoutChanges="true">
+
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="68dp"
+                        android:layout_height="55dp"
+                        android:src="@drawable/tkj" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="70dp"
+                        android:text="Jumlah Rombel: 4 "
+                        android:textColor="@color/black"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="70dp"
+                        android:layout_marginTop="14dp"
+                        android:textColor="@color/black"
+                        android:text="Jumlah Siswa: 140" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="70dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginBottom="10dp"
+                        android:textColor="@color/black"
+                        android:text="Ketua Jurusan: Ade Sukmana,S.T" />
+                </RelativeLayout>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TEKNIK JARINGAN KOMPUTER DAN TELEKOMUNIKASI"
+                    android:textColor="@color/teal_700"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/texttkj"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:textSize="15dp"
+                    android:text="Apa itu Teknik Jaringan Komputer dan Telekomunikasi
+Program studi Teknik Jaringan Komputer dan Telekomunikasi mempelajari dan menerapkan prinsip-prinsip ilmu komputer dan analisa matematis untuk desain, pengembangan, pengujian, dan evaluasi perangkat lunak, sistem operasi dan kerja komputer. Pada prodi ini akan diajarkan mulai dari menghasilkan ide kreatif, kemudian merealisasikan ide tersebut, memecah fungsi-fungsi, dan menciptakan struktur instruksi yang sangat detil dalam bahasa pemrograman untuk mengajarkan komputer apa saja yang harus dilakukan. Mahasiswa Ilmu Komputer harus menjadi ahli dalam sistem operasi dan aplikasi untuk memastikan bahwa dasar sistem operasi bekerja dengan baik."/>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+                    <!--akl-->
+
+        <androidx.cardview.widget.CardView
+            android:onClick="expand2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="1dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="10dp"
+            app:contentPadding="20dp">
+
+            <LinearLayout
+                android:id="@+id/layoutakl"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:animateLayoutChanges="true">
+
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="68dp"
+                        android:layout_height="55dp"
+                        android:src="@drawable/aklrr" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="70dp"
+                        android:text="Jumlah Rombel: 8 "
+
+                        android:textColor="@color/black"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="70dp"
+                        android:layout_marginTop="14dp"
+                        android:textColor="@color/black"
+                        android:text="Jumlah Siswa: 288" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="70dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginBottom="10dp"
+                        android:textColor="@color/black"
+                        android:text="Ketua Jurusan: Erni Wahyuni,S.Pd" />
+                </RelativeLayout>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="AKUNTANSI KEUANGAN DAN LEMBAGA"
+                    android:textColor="@color/teal_700"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textakl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:textSize="15dp"
+                   android:text="Jurusan Akuntansi merupakan jurusan yang mempelajari metode pencatatan, penggolongan, dan penyusunan dengan cara tertentu dalam laporan transaksi keuangan.
+Kenapa Sebaiknya Kamu Perlu Mempertimbangkan Buat Masuk Akuntansi
+Prospek kerja yang sangat luas, bisa dikatakan hampir seluruh sektor membutuhkan lulusan Akuntansi
+Jenjang karier yang ditawarkan cukup menjanjikan
+Cocok untuk kamu yang ingin terjun di dunia bisnis"/>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+                    <!--mp-->
+
+        <androidx.cardview.widget.CardView
+            android:onClick="expand3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="1dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="10dp"
+            app:contentPadding="20dp">
+
+            <LinearLayout
+                android:id="@+id/layoutmp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:animateLayoutChanges="true">
+
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="68dp"
+                        android:layout_height="55dp"
+                        android:src="@drawable/mp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="70dp"
+                        android:text="Jumlah Rombel: 6 "
+                        android:textColor="@color/black"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="70dp"
+                        android:layout_marginTop="14dp"
+                        android:textColor="@color/black"
+                        android:text="Jumlah Siswa: 216" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="70dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginBottom="10dp"
+                        android:textColor="@color/black"
+                        android:text="Ketua Jurusan: Rosdiana,S.Pd" />
+                </RelativeLayout>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="MANAJEMEN PERKANTORAN DAN LAYANAN BISNIS"
+                    android:textColor="@color/teal_700"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textmp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:textSize="15dp"
+                   android:text="Manajemen Perkantoran dan Layanan Bisnis, dulu bernama Otomatisasi dan Tata Kelola Perkantoran atau OTKP merupakan salah satu cabang bidang keahlian Bisnis dan Manajemen mempelajari tentang Pengetikan naskah atau dokumen, Penanganan telepon, Penataan dan pengelolaan surat atau dokumen, Penataan dan pengelolaan arsip, Penanganan perjalanan bisnis, Penanganan dana kas kecil, Penyiapan pertemuan atau rapat, Penanganan aplikasi, dan Penanganan informasi melalui internet."/>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+                    <!--pm-->
+
+        <androidx.cardview.widget.CardView
+            android:onClick="expand4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="1dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="10dp"
+            app:contentPadding="20dp">
+
+            <LinearLayout
+                android:id="@+id/layoutpm"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:animateLayoutChanges="true">
+
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="68dp"
+                        android:layout_height="55dp"
+                        android:src="@drawable/br"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="70dp"
+                        android:text="Jumlah Rombel: 6 "
+                        android:textColor="@color/black"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="70dp"
+                        android:layout_marginTop="14dp"
+                        android:textColor="@color/black"
+                        android:text="Jumlah Siswa: 216" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="70dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginBottom="10dp"
+                        android:textColor="@color/black"
+                        android:text="Ketua Jurusan: Dra.Gustina" />
+                </RelativeLayout>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PEMASARAN"
+                    android:textColor="@color/teal_700"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textpm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:textSize="15dp"
+                   android:text="Pemasaran merupakan salah satu Kompetensi Keahlian pada Program Keahlian Bisnis dan Pemasaran.  Jurusan ini mempelajari keilmuan dan praktik tentang bidang pemasaran dan pengembangan bisnis online melalui media Internet. Selama 3 tahun pembelajaran, siswa akan diajarkan bagaimana cara untuk menganalisa pasar dan menemukan peluang bisnis di dalamnya. Siswa juga akan dibekali agar mampu menggunakan media online seperti situs web maupun media sosial sebaik mungkin, sehingga para siswa diharapkan mampu menggunakannya sebagai e-commerce.
+Materi Apa Saja yang Diajarkan di SMK Jurusan Pemasaran? Selain Muatan Nasional dan Muatan Kewilayahan, di SMK tentu juga diajarkan  mata pelajaran Muatan Peminatan Kejuruan sesuai Kompetensi Keahlian yang diambil. Berikut adalah mata pelajaran Muatan Peminatan Kejuruan pada Kompetensi Keahlian (Mata Pelajaran Produktif) di SMK Jurusan Pemasaran."/>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+
+</ScrollView>
