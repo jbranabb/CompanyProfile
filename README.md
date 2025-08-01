@@ -74,7 +74,7 @@ The application follows a modular and scalable structure:
 
 ---
 
-<h3>Home Page & Drawer </h3> <p align="center"> <img src="assets/screenshots/1.jpg" alt="History Page" width="45%"/> &nbsp; <img src="assets/screenshots/2.jpg" alt="Dark Mode" width="45%"/> </p> 
+<h3>Home Page & Drawer </h3> <p align="center"> <img src="assets/screenshots/1.png" alt="History Page" width="45%"/> &nbsp; <img src="assets/screenshots/2.png" alt="Dark Mode" width="45%"/> </p> 
 
 ---
 
